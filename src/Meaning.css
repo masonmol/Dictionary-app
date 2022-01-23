@@ -1,3 +1,7 @@
+.Meaning {
+  color: #3c4245;
+}
+
 .Meaning h3 {
   font-size: 28px;
   line-height: 1.5;
@@ -9,4 +13,15 @@
   font-size: 15px;
   opacity: 0.7;
   margin-top: 2px;
+}
+
+@media (max-width: 900px) {
+  .Meaning .definition {
+    font-size: 13px;
+  }
+
+  .Meaning .example {
+    font-size: 10px;
+    margin-top: 10px;
+  }
 }

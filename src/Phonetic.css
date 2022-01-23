@@ -1,6 +1,11 @@
+.Phonetic {
+  color: #3c4245;
+}
+
 .Phonetic .icon {
   font-size: 20px;
   margin: 6px;
+  color: #719192;
 }
 
 .Phonetic .icon:hover {

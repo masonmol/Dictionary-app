@@ -47,7 +47,7 @@ export default function Search(props) {
     return (
       <div className="Search">
         <section>
-          <h1>What are you looking for?</h1>
+          <h1>What word are you looking for?</h1>
           <form onSubmit={handleSubmit}>
             <input
               type="search"
@@ -57,7 +57,7 @@ export default function Search(props) {
             />
           </form>
           <div className="hint">
-            suggested words: sunset, yoga, manifest, joy...
+            suggested words: matcha, sunset, yoga, manifest, joy...
           </div>
         </section>
         <Results results={results} />

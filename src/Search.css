@@ -8,6 +8,7 @@
 
 .Search h1 {
   font-size: 18px;
+  color: #3c4245;
 }
 
 .Search input {
@@ -23,9 +24,25 @@
 
 .Search .hint {
   font-size: 15px;
+  color: #3c4245;
 }
 
 .Search :focus-visible {
   outline: none;
   background-color: rgba(39, 45, 45, 0.02);
+}
+
+@media (max-width: 900px) {
+  .Search h1 {
+    font-size: 13px;
+  }
+
+  .Search .hint {
+    font-size: 11px;
+  }
+
+  .Search form {
+    padding: 0px;
+    margin-bottom: 5px;
+  }
 }

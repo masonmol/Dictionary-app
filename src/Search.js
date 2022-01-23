@@ -34,10 +34,16 @@ export default function Search(props) {
     return (
       <div className="Search">
         <section>
+          <h1>What are you looking for?</h1>
           <form onSubmit={handleSubmit}>
-            <input type="search" onChange={handleKeywordChange} />
+            <input
+              type="search"
+              onChange={handleKeywordChange}
+              placeholder="type a word..."
+              defaultValue={props.defaultKeyword}
+            />
           </form>
-          <div className="hint text-center">
+          <div className="hint">
             suggested words: sunset, yoga, manifest, joy...
           </div>
         </section>

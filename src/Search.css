@@ -6,8 +6,12 @@
   margin: 20px;
 }
 
+.Search h1 {
+  font-size: 18px;
+}
+
 .Search input {
-  width: 75%;
+  width: 100%;
   padding: 6px 4px;
   border: 1px solid #ddd;
 }
@@ -19,5 +23,9 @@
 
 .Search .hint {
   font-size: 15px;
-  margin-top: 5px;
+}
+
+.Search :focus-visible {
+  outline: none;
+  background-color: rgba(39, 45, 45, 0.02);
 }

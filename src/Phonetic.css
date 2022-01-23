@@ -1,0 +1,8 @@
+.Phonetic .icon {
+  font-size: 20px;
+  margin: 6px;
+}
+
+.Phonetic .icon:hover {
+  cursor: pointer;
+}

@@ -10,3 +10,11 @@ body {
   font-size: 80px;
   margin: 20px;
 }
+
+.footer {
+  font-size: 15px;
+  margin: 15px;
+}
+.footer a {
+  text-decoration: none;
+}
